@@ -1,0 +1,23 @@
+{
+  "name": "minionswithinadungeon.com",
+  "version": "2.0.0",
+  "description": "website buildtask for \"minions-dungeon.com\" / \"minionswithinadungeon.com\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samvieten/minionswithinadungeon.com.git"
+  },
+  "author": "sam vieten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samvieten/minionswithinadungeon.com/issues"
+  },
+  "homepage": "https://github.com/samvieten/minionswithinadungeon.com#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
