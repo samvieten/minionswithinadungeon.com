@@ -1,0 +1,23 @@
+.gallery {
+	background: #0D0919;
+
+	li {
+		float: left;
+		width: 25%;
+	}
+
+	a {
+		display: block;
+	}
+
+	img {
+		width:100%;
+		height: auto;
+	}
+
+	@media screen and (max-width: 800px) {
+		li {
+			width: 50%;
+		}
+	}
+}

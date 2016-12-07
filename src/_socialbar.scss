@@ -1,0 +1,38 @@
+.socialbar {
+	text-align: right;
+	height: 60px;
+	width: 100%;
+	background: #100819;
+	position: absolute;
+	z-index: 0;
+
+	ol {
+		width: 360px;
+		float: right;
+		display: block;
+	}
+
+	li{
+		display: inline-block;
+		margin: 20px 10px;
+	}
+
+	a {
+		transition: 0.3s;
+		&:hover {
+			opacity: 0.7;
+			transition: 0.3s;
+		}
+	}
+
+	@media screen and (max-width: 540px) {
+		position: static;
+		height: 80px;
+		text-align: center;
+
+		ol {
+			float: none;
+			width: 100%;
+		}
+	}
+}

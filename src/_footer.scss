@@ -1,0 +1,102 @@
+footer {
+	background: #0D0919;
+	padding: 120px 0 80px 0;
+	border-bottom: solid 60px darken(#0D0919, 5%);
+	position: relative;
+	z-index: 0;
+
+	address {
+		float: left;
+		width: 33.333333%;
+		margin-bottom: 40px;
+
+		.label {
+			display: block;
+			font-size: 18px;
+			color: #A99BB8;
+			margin-bottom: 20px;
+		}
+
+		strong {
+			display: block;
+			font-size: 22px;
+			color: #fff;
+
+			a {
+				display: block;
+				font-size: 22px;
+				color: #0082FF;
+			}
+		}
+
+		a {
+			color: #fff;
+		}
+
+		em {
+			display: block;
+			font-size: 18px;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+
+		&.press {
+
+			.label {
+				font-size: 22px;
+			}
+
+			strong {
+				font-size: 26px;
+				a {
+					font-size: 26px;
+				}
+			}
+
+			em {
+				font-size: 22px;
+			}
+		}
+	}
+
+	.social-media {
+		margin-top: 20px;
+
+		li {
+			margin-left: 15px;
+			display: inline-block;
+
+			&:first-child {
+				margin: 0;
+			}
+		}
+	}
+
+	.indie-db-counter {
+		position: absolute;
+		bottom: -30px;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+
+	@media screen and (max-width: 1280px) {
+		padding: 100px 40px 80px 40px;
+	}
+
+	@media screen and (max-width: 800px) {
+		address {
+			width: 50%;
+			height: 200px;
+		}
+	}
+
+	@media screen and (max-width: 540px) {
+		padding: 80px 20px 60px 20px;
+
+		address {
+			width: 100%;
+			height: auto;
+			margin-bottom: 40px;
+		}
+	}
+}
