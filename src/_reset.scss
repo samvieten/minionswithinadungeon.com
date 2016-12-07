@@ -29,6 +29,13 @@ body {
 	}
 }
 
+img {
+	line-height: 0;
+	vertical-align: middle;
+	display: block;
+	-ms-interpolation-mode: bicubic;
+}
+
 .clr {
 	clear: both;
 }
