@@ -1,7 +1,14 @@
 .teaser {
 	margin-bottom: 80px;
 
+	.indie-game-of-the-year {
+		position: absolute;
+		top: 100px;
+		right: 60px;
+	}
+
 	aside {
+		position: relative;
 		float: right;
 		width: 360px;
 		text-align: center;
@@ -88,6 +95,14 @@
 			padding-top: 40px;
 			float: none;
 			width: 100%;
+		}
+
+		.indie-game-of-the-year {
+			position: static;
+			display: block;
+			margin: auto;
+			width: 250px;
+			margin-bottom: 60px;
 		}
 
 		article {

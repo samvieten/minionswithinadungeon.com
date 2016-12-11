@@ -221,7 +221,12 @@ footer .indie-db-counter {
 
 .teaser {
   margin-bottom: 80px; }
+.teaser .indie-game-of-the-year {
+  position: absolute;
+  top: 100px;
+  right: 60px; }
 .teaser aside {
+  position: relative;
   float: right;
   width: 360px;
   text-align: center;
@@ -275,6 +280,12 @@ footer .indie-db-counter {
     padding-top: 40px;
     float: none;
     width: 100%; }
+  .teaser .indie-game-of-the-year {
+    position: static;
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 60px; }
   .teaser article {
     float: none;
     width: 100%;
